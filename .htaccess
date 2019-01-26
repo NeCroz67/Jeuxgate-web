@@ -1,0 +1,10 @@
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+<FilesMatch "\.(pl|cgi|py|php3|php4|php5|phtml?|shtml?)$">
+Deny from all
+</FilesMatch>
+<FilesMatch "\.(htaccess|htpasswd|htgroup)$">
+Deny from all
+</FilesMatch>
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .css .js
