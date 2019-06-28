@@ -18,13 +18,13 @@ body{
 }
 .error{
     background-color: azure;
-    border-color: #000;
-    border-radius: 5px;
+    border-radius: 3px;
     color: black;
     border-style: solid;
     line-height: 20px;
     font-size: 16 px;
     padding: 4px 20px;
+    font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
 }
 center{
 	font-size: 15px;
