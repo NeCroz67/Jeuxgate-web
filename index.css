@@ -14,7 +14,14 @@ body{
 	animation-name: co;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
-	font-size : 16px
+	font-size : 16px;
+}
+.error{
+    background-color: azure;
+    border-color: #000;
+    border-radius: 5px;
+    color: black;
+    border-style: solid;
 }
 center{
 	font-size: 15px;
