@@ -5,6 +5,16 @@ body{
 	margin: 0px;
 	font-size: 0px;
 }
+@keyframes co {
+	0% {background-color: #2eb82e;}
+	50% {background-color: white;}
+	100% {background-color: #2eb82e;}
+}
+.co{
+	animation-name: co;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
 center{
 	font-size: 15px;
 }
